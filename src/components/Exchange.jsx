@@ -28,6 +28,7 @@ export default class Exchange extends React.Component {
 
     let thinOrderbookWarning;
     let data = this.props.d.orderbook.data;
+   
     let ticker = this.props.d.ticker;
     let warningWarning;
 

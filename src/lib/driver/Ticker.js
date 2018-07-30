@@ -17,7 +17,7 @@ Ticker.prototype.load = function(attempt) {
   if (attempt >= MAX_ATTEMPTS) {
     return;
   }
-  req.getJson('https://api.stellarterm.com/v1/ticker.json')
+  req.getJson('https://s3.amazonaws.com/stellarterm-test-bucket/v1/ticker.json')
   .then(tickerData => {
     this.ready = true;
     this.data = tickerData;
