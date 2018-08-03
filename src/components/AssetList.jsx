@@ -93,7 +93,7 @@ export default class AssetList extends React.Component {
 
       rows.push(<a href={'#exchange/' + asset.topTradePairSlug} key={'asset-' + asset.id} className="AssetList__asset">
         <div className="AssetList__asset__assetCard"><AssetCard2 code={asset.code} issuer={asset.issuer} boxy={false}></AssetCard2></div>
-        <div className="AssetList__asset__weblink"><a target="_blank" href={anchor.website}><button style={style}>{link_word}</button></a></div>
+        <div className="AssetList__asset__weblink"><a target="_blank" href={anchor.website}><button style={style}>Info</button></a></div>
         <div className="AssetList__asset__amount">{priceXLM}{Printify.lighten(' XLM')}</div>
         <div className="AssetList__asset__amount">{priceUSD}</div>
         <div className="AssetList__asset__amount">{volume24h}</div>
