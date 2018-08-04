@@ -137,47 +137,47 @@ directory.addAsset('transportationcredit.org', {
 
 directory.addPair({
   baseBuying: ['SDC', 'cleandirtcoin.org'],
-  counterSelling: ['XLM', 'native'],
+  counterSelling: ['EQD', 'equid.co'],
 });
 
 directory.addPair({
   baseBuying: ['DCD', 'dentalcoin.org'],
-  counterSelling: ['XLM', 'native'],
+  counterSelling: ['EQD', 'equid.co'],
 });
 
 directory.addPair({
-  baseBuying: ['EQD', 'equid.co'],
-  counterSelling: ['XLM', 'native'],
+  baseBuying: ['XLM', 'native'],
+  counterSelling: ['EQD', 'equid.co'],
 });
 
 directory.addPair({
   baseBuying: ['CAH', 'crimesagainsthumanity.org'],
-  counterSelling: ['XLM', 'native'],
+  counterSelling: ['EQD', 'equid.co'],
 });
 
 directory.addPair({
   baseBuying: ['ACC', 'freshaircoin.org'],
-  counterSelling: ['XLM', 'native'],
+  counterSelling: ['EQD', 'equid.co'],
 });
 
 directory.addPair({
   baseBuying: ['HTO', 'h2ocredit.org'],
-  counterSelling: ['XLM', 'native'],
+  counterSelling: ['EQD', 'equid.co'],
 });
 
 directory.addPair({
   baseBuying: ['JTC', 'jobtrainingcoin.org'],
-  counterSelling: ['XLM', 'native'],
+  counterSelling: ['EQD', 'equid.co'],
 });
 
 directory.addPair({
   baseBuying: ['POW', 'powercredits.org'],
-  counterSelling: ['XLM', 'native'],
+  counterSelling: ['EQD', 'equid.co'],
 });
 
 directory.addPair({
   baseBuying: ['TFC', 'transportationcredit.org'],
-  counterSelling: ['XLM', 'native'],
+  counterSelling: ['EQD', 'equid.co'],
 });
 
 
@@ -294,20 +294,20 @@ directory.addDestination('GDRSWSKJCIB6Z65UA7W5RG62A7M5K3A5IHMED6DYHLPLWLVQCOOGDQ
   requiredMemoType: 'MEMO_ID',
 });
 
-// Assert that each asset has a trading pair
-let remainingAssets = Object.assign({}, directory.assets);
+// // Assert that each asset has a trading pair
+// let remainingAssets = Object.assign({}, directory.assets);
 
-for (let pairId in directory.pairs) {
-  let pair = directory.pairs[pairId];
-  if (pair.baseBuying.code === 'XLM' && pair.baseBuying.issuer === null) {
-    delete remainingAssets[pair.counterSelling.code + '-' + pair.counterSelling.issuer];
-  } else if (pair.counterSelling.code === 'XLM' && pair.counterSelling.issuer === null) {
-    delete remainingAssets[pair.baseBuying.code + '-' + pair.baseBuying.issuer];
-  }
-}
-let remainingAssetKeys = Object.keys(remainingAssets);
-if (remainingAssetKeys.length) {
-  throw new Error('Missing trading pair. Please use addPair() for asset: ' + remainingAssetKeys[0]);
-}
+// for (let pairId in directory.pairs) {
+//   let pair = directory.pairs[pairId];
+//   if (pair.baseBuying.code === 'XLM' && pair.baseBuying.issuer === null) {
+//     delete remainingAssets[pair.counterSelling.code + '-' + pair.counterSelling.issuer];
+//   } else if (pair.counterSelling.code === 'XLM' && pair.counterSelling.issuer === null) {
+//     delete remainingAssets[pair.baseBuying.code + '-' + pair.baseBuying.issuer];
+//   }
+// }
+// let remainingAssetKeys = Object.keys(remainingAssets);
+// if (remainingAssetKeys.length) {
+//   throw new Error('Missing trading pair. Please use addPair() for asset: ' + remainingAssetKeys[0]);
+// }
 
 module.exports = directory;

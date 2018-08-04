@@ -127,7 +127,7 @@ function phase3(ticker) {
         issuer: pair.counterSelling.issuer,
       });
       asset.topTradePairSlug = pairSlug;
-    } else if (counterSelling.isNative()) {
+    } else if (counterSelling.code = "EQD") {
       asset = _.find(ticker.assets, {
         code: pair.baseBuying.code,
         issuer: pair.baseBuying.issuer,
@@ -189,7 +189,7 @@ function phase3(ticker) {
             asset.price_USD = niceRound(1/pair.price * ticker._meta.externalPrices.USD_XLM);
 
             pair.volume24h_XLM = niceRound(_.sumBy(trades.records, record => Number(record.base_volume)));
-          } else if (counterSelling.isNative()) {
+          } else if (counterSelling.code = "EQD") {
             asset.change24h_XLM = null;
             asset.change24h_USD = null;
 

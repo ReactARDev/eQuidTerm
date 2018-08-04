@@ -357,94 +357,94 @@
   "wildcardIssuers": {},
   "wildcardDomains": {},
   "pairs": {
-    "SDC-cleandirtcoin.org/XLM-native": {
+    "SDC-cleandirtcoin.org/EQD-equid.co": {
       "baseBuying": {
         "code": "SDC",
         "issuer": "GC3HADNCTJBPZY6VLMPONJIGSKNEB2M7P5RUZFUQVIVG2QPVMZ7LCMWA"
       },
       "counterSelling": {
-        "code": "XLM",
-        "issuer": null
+        "code": "EQD",
+        "issuer": "GCGEQJR3E5BVMQYSNCHPO6NPP3KOT4VVZHIOLSRSNLE2GFY7EWVSLLTN"
       }
     },
-    "DCD-dentalcoin.org/XLM-native": {
+    "DCD-dentalcoin.org/EQD-equid.co": {
       "baseBuying": {
         "code": "DCD",
         "issuer": "GDJWK7ECZP3XVN3AVK7J6XZJ6QL4OXWRODXYNH6XG5VDETNPH5XNZXQ3"
       },
       "counterSelling": {
-        "code": "XLM",
-        "issuer": null
-      }
-    },
-    "EQD-equid.co/XLM-native": {
-      "baseBuying": {
         "code": "EQD",
         "issuer": "GCGEQJR3E5BVMQYSNCHPO6NPP3KOT4VVZHIOLSRSNLE2GFY7EWVSLLTN"
-      },
-      "counterSelling": {
-        "code": "XLM",
-        "issuer": null
       }
     },
-    "CAH-crimesagainsthumanity.org/XLM-native": {
+    "XLM-native/EQD-equid.co": {
+      "baseBuying": {
+        "code": "XLM",
+        "issuer": null
+      },
+      "counterSelling": {
+        "code": "EQD",
+        "issuer": "GCGEQJR3E5BVMQYSNCHPO6NPP3KOT4VVZHIOLSRSNLE2GFY7EWVSLLTN"
+      }
+    },
+    "CAH-crimesagainsthumanity.org/EQD-equid.co": {
       "baseBuying": {
         "code": "CAH",
         "issuer": "GBSG3AHGUKYUH2PJ5UYPBDRPTBKVJBYOWSC6FVMIULE7ZYZV6TXBIKS2"
       },
       "counterSelling": {
-        "code": "XLM",
-        "issuer": null
+        "code": "EQD",
+        "issuer": "GCGEQJR3E5BVMQYSNCHPO6NPP3KOT4VVZHIOLSRSNLE2GFY7EWVSLLTN"
       }
     },
-    "ACC-freshaircoin.org/XLM-native": {
+    "ACC-freshaircoin.org/EQD-equid.co": {
       "baseBuying": {
         "code": "ACC",
         "issuer": "GBXQKQYS7XOEDL55IMTEUZXIWUDC4ANYBGN5MBFTA2LSRMX6UAX46UUN"
       },
       "counterSelling": {
-        "code": "XLM",
-        "issuer": null
+        "code": "EQD",
+        "issuer": "GCGEQJR3E5BVMQYSNCHPO6NPP3KOT4VVZHIOLSRSNLE2GFY7EWVSLLTN"
       }
     },
-    "HTO-h2ocredit.org/XLM-native": {
+    "HTO-h2ocredit.org/EQD-equid.co": {
       "baseBuying": {
         "code": "HTO",
         "issuer": "GBPWTCFSOEDRPCA7HTGCNHOUFMFQPZFX7WXOLANTLCZ7J7PIGGDYVFOJ"
       },
       "counterSelling": {
-        "code": "XLM",
-        "issuer": null
+        "code": "EQD",
+        "issuer": "GCGEQJR3E5BVMQYSNCHPO6NPP3KOT4VVZHIOLSRSNLE2GFY7EWVSLLTN"
       }
     },
-    "JTC-jobtrainingcoin.org/XLM-native": {
+    "JTC-jobtrainingcoin.org/EQD-equid.co": {
       "baseBuying": {
         "code": "JTC",
         "issuer": "GARIJ5IEICAKRS3ORM3V6B3Y26U6MTPGEBVHXIBNCZ4QVVXC5DQJ74UB"
       },
       "counterSelling": {
-        "code": "XLM",
-        "issuer": null
+        "code": "EQD",
+        "issuer": "GCGEQJR3E5BVMQYSNCHPO6NPP3KOT4VVZHIOLSRSNLE2GFY7EWVSLLTN"
       }
     },
-    "POW-powercredits.org/XLM-native": {
+    "POW-powercredits.org/EQD-equid.co": {
       "baseBuying": {
         "code": "POW",
         "issuer": "GBWNKC3YNVZP466QRC2H2DCADNNGHC7M3A4ZUQVPXNIP3CCFF2NK6U4K"
       },
       "counterSelling": {
-        "code": "XLM",
-        "issuer": null
+        "code": "EQD",
+        "issuer": "GCGEQJR3E5BVMQYSNCHPO6NPP3KOT4VVZHIOLSRSNLE2GFY7EWVSLLTN"
       }
     },
-    "TFC-transportationcredit.org/XLM-native": {
+    "TFC-transportationcredit.org/EQD-equid.co": {
       "baseBuying": {
         "code": "TFC",
         "issuer": "GBFK733BPK64CFHM6OJ2BOTKXFMF3RYHEH6D2DBJVE3GB3O7FLEJXMX4"
       },
       "counterSelling": {
-        "code": "XLM",
-        "issuer": null
+        "code": "EQD",
+        "issuer": "GCGEQJR3E5BVMQYSNCHPO6NPP3KOT4VVZHIOLSRSNLE2GFY7EWVSLLTN"
       }
     }
   },
