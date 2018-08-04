@@ -70,6 +70,18 @@ directory.addAsset('equid.co', {
 });
 
 directory.addAnchor({
+  domain: 'equid.io',
+  website: 'https://equid.io/',
+  logo: 'equid.io',
+  displayName: 'eQuid',
+});
+
+directory.addAsset('equid.io', {
+  code: 'EQD',
+  issuer: 'GBLARAQU7TPPVXCEQHFD4RHW3U3GKY5LNVYJIFDH4RTQYKF2CXJPI2L5',
+});
+
+directory.addAnchor({
   domain: 'freshaircoin.org',
   website: 'https://freshaircoin.org/',
   logo: 'freshaircoin.org',
@@ -137,47 +149,52 @@ directory.addAsset('transportationcredit.org', {
 
 directory.addPair({
   baseBuying: ['SDC', 'cleandirtcoin.org'],
-  counterSelling: ['EQD', 'equid.co'],
+  counterSelling: ['EQD', 'equid.io'],
 });
 
 directory.addPair({
   baseBuying: ['DCD', 'dentalcoin.org'],
-  counterSelling: ['EQD', 'equid.co'],
+  counterSelling: ['EQD', 'equid.io'],
 });
 
 directory.addPair({
   baseBuying: ['XLM', 'native'],
-  counterSelling: ['EQD', 'equid.co'],
+  counterSelling: ['EQD', 'equid.io'],
+});
+
+directory.addPair({
+  baseBuying: ['EQD', 'equid.co'],
+  counterSelling: ['EQD', 'equid.io'],
 });
 
 directory.addPair({
   baseBuying: ['CAH', 'crimesagainsthumanity.org'],
-  counterSelling: ['EQD', 'equid.co'],
+  counterSelling: ['EQD', 'equid.io'],
 });
 
 directory.addPair({
   baseBuying: ['ACC', 'freshaircoin.org'],
-  counterSelling: ['EQD', 'equid.co'],
+  counterSelling: ['EQD', 'equid.io'],
 });
 
 directory.addPair({
   baseBuying: ['HTO', 'h2ocredit.org'],
-  counterSelling: ['EQD', 'equid.co'],
+  counterSelling: ['EQD', 'equid.io'],
 });
 
 directory.addPair({
   baseBuying: ['JTC', 'jobtrainingcoin.org'],
-  counterSelling: ['EQD', 'equid.co'],
+  counterSelling: ['EQD', 'equid.io'],
 });
 
 directory.addPair({
   baseBuying: ['POW', 'powercredits.org'],
-  counterSelling: ['EQD', 'equid.co'],
+  counterSelling: ['EQD', 'equid.io'],
 });
 
 directory.addPair({
   baseBuying: ['TFC', 'transportationcredit.org'],
-  counterSelling: ['EQD', 'equid.co'],
+  counterSelling: ['EQD', 'equid.io'],
 });
 
 
