@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 
 const oddBackground = '#f7f7f7';
 const buyBackground = '#58D68D';
-const sellBackground = '#FF0000';
+const sellBackground = '#FFaadd';
 
 // Dumb component that mainly renders the UI
 export default function OfferTable(props) {

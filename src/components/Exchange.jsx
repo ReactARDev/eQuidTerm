@@ -52,16 +52,6 @@ export default class Exchange extends React.Component {
           }
         }
       }
-
-      if (aggregateDepth < 100) {
-        thinOrderbookWarning = <div className="Exchange__warning">
-          <div className="s-alert s-alert--warning">
-            The orderbook for this pair is thin. To get a better price, create an offer without taking an existing one.
-          </div>
-        </div>
-      }
-
-
     }
 
     let directoryAsset = directory.getAssetByAccountId(data.baseBuying.code, data.baseBuying.issuer);

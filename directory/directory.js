@@ -159,12 +159,12 @@ directory.addPair({
 
 directory.addPair({
   baseBuying: ['XLM', 'native'],
-  counterSelling: ['EQD', 'equid.io'],
+  counterSelling: ['EQD', 'equid.co'],
 });
 
 directory.addPair({
-  baseBuying: ['EQD', 'equid.co'],
-  counterSelling: ['EQD', 'equid.io'],
+  baseBuying: ['EQD', 'equid.io'],
+  counterSelling: ['EQD', 'equid.co'],
 });
 
 directory.addPair({
