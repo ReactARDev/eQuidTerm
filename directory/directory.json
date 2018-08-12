@@ -394,24 +394,24 @@
         "issuer": "GBLARAQU7TPPVXCEQHFD4RHW3U3GKY5LNVYJIFDH4RTQYKF2CXJPI2L5"
       }
     },
-    "XLM-native/EQD-equid.co": {
+    "XLM-native/EQD-equid.io": {
       "baseBuying": {
         "code": "XLM",
         "issuer": null
       },
       "counterSelling": {
         "code": "EQD",
-        "issuer": "GCGEQJR3E5BVMQYSNCHPO6NPP3KOT4VVZHIOLSRSNLE2GFY7EWVSLLTN"
+        "issuer": "GBLARAQU7TPPVXCEQHFD4RHW3U3GKY5LNVYJIFDH4RTQYKF2CXJPI2L5"
       }
     },
-    "EQD-equid.io/EQD-equid.co": {
+    "EQD-equid.co/EQD-equid.io": {
       "baseBuying": {
         "code": "EQD",
-        "issuer": "GBLARAQU7TPPVXCEQHFD4RHW3U3GKY5LNVYJIFDH4RTQYKF2CXJPI2L5"
+        "issuer": "GCGEQJR3E5BVMQYSNCHPO6NPP3KOT4VVZHIOLSRSNLE2GFY7EWVSLLTN"
       },
       "counterSelling": {
         "code": "EQD",
-        "issuer": "GCGEQJR3E5BVMQYSNCHPO6NPP3KOT4VVZHIOLSRSNLE2GFY7EWVSLLTN"
+        "issuer": "GBLARAQU7TPPVXCEQHFD4RHW3U3GKY5LNVYJIFDH4RTQYKF2CXJPI2L5"
       }
     },
     "CAH-crimesagainsthumanity.org/EQD-equid.io": {
