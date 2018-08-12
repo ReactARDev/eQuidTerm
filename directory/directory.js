@@ -58,6 +58,19 @@ directory.addAsset('dentalcoin.org', {
 });
 
 directory.addAnchor({
+  domain: 'eveland.io',
+  website: 'https://eveland.io/',
+  logo: 'eveland.io',
+  color: '#cebe12',
+  displayName: 'Eveland',
+});
+
+directory.addAsset('eveland.io', {
+  code: 'EVO',
+  issuer: 'GCNGQEDAOIM6T6QFSYVG5LQ5CR5TQ2CVZI2L4RTTU75YKTLBPZI7KBHH',
+});
+
+directory.addAnchor({
   domain: 'equid.co',
   website: 'https://equid.co/',
   logo: 'equid.co',
@@ -194,6 +207,11 @@ directory.addPair({
 
 directory.addPair({
   baseBuying: ['TFC', 'transportationcredit.org'],
+  counterSelling: ['EQD', 'equid.io'],
+});
+
+directory.addPair({
+  baseBuying: ['EVO', 'eveland.io'],
   counterSelling: ['EQD', 'equid.io'],
 });
 

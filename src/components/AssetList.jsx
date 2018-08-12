@@ -90,7 +90,7 @@ export default class AssetList extends React.Component {
         let rgbaColor = hexToRgba(anchor.color, BACKGROUND_OPACITY);
         style.background = rgbaColor;
       }
-
+      if (asset.topTradePairSlug) {
       rows.push(<a href={'#exchange/' + asset.topTradePairSlug} key={'asset-' + asset.id} className="AssetList__asset">
         <div className="AssetList__asset__assetCard"><AssetCard2 code={asset.code} issuer={asset.issuer} boxy={false}></AssetCard2></div>
         <div className="AssetList__asset__weblink"><a target="_blank" href={anchor.website}><button style={style}>Info</button></a></div>
@@ -99,8 +99,7 @@ export default class AssetList extends React.Component {
         <div className="AssetList__asset__amount">{volume24h}</div>
         <div className="AssetList__asset__amount">{change24h}</div>
         <div className="AssetList__asset__amount">{tradeLink}</div>
-      </a>);
-      // rows.push(<AssetPair key={index} row={true} baseBuying={market.baseBuying} counterSelling={market.counterSelling}></AssetPair>)
+      </a>);}
     })
     return (
       <div className="AssetList">
