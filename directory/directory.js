@@ -33,26 +33,26 @@ directory.addAsset('cleandirtcoin.org', {
 });
 
 directory.addAnchor({
-  domain: 'crimesagainsthumanity.org',
-  website: 'https://crimesagainsthumanity.org/',
+  domain: 'crimesagainsthumanitycoin.org',
+  website: 'https://crimesagainsthumanitycoin.org/',
   logo: 'crimesagainsthumanity.org',
   color: '#6f39fc',
   displayName: 'CrimesAgainsThumanity',
 });
-directory.addAsset('crimesagainsthumanity.org', {
+directory.addAsset('crimesagainsthumanitycoin.org', {
   code: 'CAH',
   issuer: 'GBSG3AHGUKYUH2PJ5UYPBDRPTBKVJBYOWSC6FVMIULE7ZYZV6TXBIKS2',
 });
 
 directory.addAnchor({
-  domain: 'dentalcoin.org',
-  website: 'https://dentalcoin.org/',
+  domain: 'dentalcoins.org',
+  website: 'https://dentalcoins.org/',
   logo: 'dentalcoin.org',
   color: '#febe12',
   displayName: 'DentalCoin',
 });
 
-directory.addAsset('dentalcoin.org', {
+directory.addAsset('dentalcoins.org', {
   code: 'DCD',
   issuer: 'GDJWK7ECZP3XVN3AVK7J6XZJ6QL4OXWRODXYNH6XG5VDETNPH5XNZXQ3',
 });
@@ -166,7 +166,7 @@ directory.addPair({
 });
 
 directory.addPair({
-  baseBuying: ['DCD', 'dentalcoin.org'],
+  baseBuying: ['DCD', 'dentalcoins.org'],
   counterSelling: ['EQD', 'equid.io'],
 });
 
@@ -181,7 +181,7 @@ directory.addPair({
 });
 
 directory.addPair({
-  baseBuying: ['CAH', 'crimesagainsthumanity.org'],
+  baseBuying: ['CAH', 'crimesagainsthumanitycoin.org'],
   counterSelling: ['EQD', 'equid.io'],
 });
 
